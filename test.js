@@ -11,15 +11,7 @@ const logger = winston.createLogger({
   ],
 });
 
-if (process.env.NODE_ENV !== "production") {
-  logger.add(
-    new winston.transports.Console({
-      format: winston.format.simple(),
-    })
-  );
-}
-
-async function test(event, context) {
+async function test() {
   logger.info("Launching browser...");
   const browser = await puppeteer.launch();
   const page = await browser.newPage();
