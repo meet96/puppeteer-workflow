@@ -1,4 +1,4 @@
-name: Run Puppeteer Script
+name: testcase-1
 on:
   push:
     branches: [main]
