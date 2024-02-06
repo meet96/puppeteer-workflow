@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "aws-sdk": "^2.1551.0",
+    "dotenv": "^16.4.1",
     "puppeteer": "^22.0.0",
     "winston": "^3.11.0"
   }
