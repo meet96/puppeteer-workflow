@@ -23,6 +23,8 @@ async function test() {
   await browser.close();
 
   logger.info("Browser navigation completed");
+
+  console.log("Test completed");
 }
 
 test();
